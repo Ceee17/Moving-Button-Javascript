@@ -3,7 +3,8 @@ let btn1 = document.getElementById("btn1");
 let btn2 = document.getElementById("btn2");
 
 function swapText() {
-  let tempPosition = btn1.style.order;
+  // function iini masi belom bisa
+  let tempPosition = btn1.style.order; // button 1 masi error
   btn1.style.order = btn2.style.order;
   btn2.style.order = tempPosition;
 }
